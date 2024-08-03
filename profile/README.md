@@ -1,4 +1,4 @@
-The following are examples of private .git university projects. Offering as much as 
+The following are examples of .git university projects, most being private. Offering as much as 
 30 ECTS, they cover a diverse range of IT disciplines - including software
 engineering, computer & other advanced data engineering and sciences - many involving extensive collaboration:
 
@@ -12,11 +12,9 @@ engineering, computer & other advanced data engineering and sciences - many invo
 - Deep reinforcement learning for dynamic job shop scheduling optimisation with Stable Baselines 3
 - UX-driven real-time interactive multi-sensory empathetic humanoid AI-agent utilising CNN & LLM
 - Interrupt-driven, real-time remote helicopter state, orientation & operation controller using PWM
-- Simulating XYZ TCP/UDP socket communication, LP flow optimization & dynamic RIP networking
+- Simulating XYZ TCP/UDP socket communication, LP flow optimization & RIP networking
 - Monopoly, kalah, embedded interactive memory, AI quarto, RL Snake & Pong, React quiz board, FP ultimate TTT, etc. games
 - Parking, rego, supply chain, auction, bar order, itinerary route planner, forum, etc. UI apps of varying FW
 - 3D-animated scenery & interactive gameplay with ray tracing, particle system & real-World physics
 - cross-platform application prototype for streamlining offshore-focused maritime mooring planning
-- more to be listed soon ...
-
-Refer to my [LinkedIn profile](https://www.linkedin.com/in/r055a/) for more information.
+- and much more, to be listed soon ...
