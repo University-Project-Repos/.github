@@ -13,9 +13,9 @@ data engineering and sciences from the University of Auckland, Uppsala Universit
 - Low-level parallelisation of graphically heat-mapped, collision-free pedestrian crowd simulation
 - Bayesian probabilistic ML modelling of sport match data for predicting ranking using MS Trueskill
 - Deep reinforcement learning for dynamic job shop scheduling optimisation with Stable Baselines 3
-- UX-driven real-time interactive multi-sensory empathetic humanoid AI-agent utilising CNN & LLM
+- UX-driven real-time interactive multi-sensory empathetic humanoid AI-agent using CNN & LLM
 - Interrupt-driven, real-time remote helicopter state, orientation & operation controller using PWM
-- Simulating XYZ TCP/UDP socket communication, LP flow optimization & RIP networking
+- Simulating XYZ TCP/UDP socket communication, LP flow optimization & dynamic RIP networking
 - Monopoly, kalah, embedded interactive memory, AI quarto, RL Snake & Pong, React quiz board, FP ultimate TTT, etc. games
 - Parking, rego, supply chain, auction, bar order, itinerary route planner, forum, etc. UI apps of varying FW
 - 3D-animated scenery & interactive gameplay with ray tracing, particle system & real-World physics
