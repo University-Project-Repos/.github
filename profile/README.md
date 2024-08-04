@@ -1,8 +1,8 @@
 The following are examples of .git university projects, most being private. Offering as much as 
 30 ECTS, they cover a diverse range of IT disciplines, many involving extensive collaboration. 
 These include all undergraduate computer science, software engineering, embedded systems, 
-and GIS credits given at the University of Canterbury or in advanced equivalence from studies abroad, 
-with many more at postgraduate-level in advanced software engineering, computer & other advanced 
+and GIS credits given at the University of Canterbury or in advanced equivalence from studies 
+abroad during double degree studies, with many more at postgraduate-level in software engineering, computer & other advanced 
 data engineering and sciences from the University of Auckland, Uppsala University and other formal international exchanges:
 
 - Distributed real-time system for global semi-autonomous asynchronous robotic depot storage
