@@ -20,7 +20,7 @@ data engineering and sciences from the University of Auckland, Uppsala Universit
 - Parking, rego, supply chain, auction, bar order, itinerary route planner, forum, etc. UI apps of varying FW
 - 3D-animated scenery & interactive gameplay with ray tracing, particle system & real-World physics
 - cross-platform application prototype for streamlining offshore-focused maritime mooring planning
-- and much more, to be listed soon ...
+- and much more, to be listed soon, not to mention other projects completed without using `.git`
 
 ### 📈 Repository and User Contribution Statistics
 
