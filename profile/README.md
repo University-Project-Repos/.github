@@ -21,3 +21,11 @@ data engineering and sciences from the University of Auckland, Uppsala Universit
 - 3D-animated scenery & interactive gameplay with ray tracing, particle system & real-World physics
 - cross-platform application prototype for streamlining offshore-focused maritime mooring planning
 - and much more, to be listed soon ...
+
+### 📈 Repository and User Contribution Statistics
+
+For now here are daily generated visualizations of my GitHub user* & repository statistics:
+
+[![GitStats Overview](https://raw.githubusercontent.com/R055A/GitStats/actions_branch/generated_images/overview.svg "R055A/GitStats")![GitStats Languages](https://raw.githubusercontent.com/R055A/GitStats/actions_branch/generated_images/languages.svg "R055A/GitStats")](https://github.com/R055A/GitStats)
+    
+> \* _My '**Avg contributions**' rate applies only to university project repos completed with at least 1 other_
