@@ -24,7 +24,7 @@ data engineering and sciences from the University of Auckland, Uppsala Universit
 
 ### 📈 Repository and User Contribution Statistics
 
-For now here are daily generated visualizations of my GitHub user* & repository statistics:
+For now here are daily generated visualizations of my personal GitHub user* & repository statistics:
 
 [![GitStats Overview](https://raw.githubusercontent.com/R055A/GitStats/actions_branch/generated_images/overview.svg "R055A/GitStats")![GitStats Languages](https://raw.githubusercontent.com/R055A/GitStats/actions_branch/generated_images/languages.svg "R055A/GitStats")](https://github.com/R055A/GitStats)
     
