@@ -11,6 +11,7 @@ data engineering and sciences from the University of Auckland, Uppsala Universit
 - BDD/TDD requirements engineered seamless E-commerce art gallery web app, & QA
 - Microcellular image analysis & ResNet & U-Net classifying diagnosis & treatment, & XAI
 - Low-level parallelisation of graphically heat-mapped, collision-free pedestrian crowd simulation
+- Distributed parallelisation of a malaria endemic stochastic simulation algorithm using Monte Carlo
 - Bayesian probabilistic ML modelling of sport match data for predicting ranking using MS Trueskill
 - Deep reinforcement learning for dynamic job shop scheduling optimisation with Stable Baselines 3
 - UX-driven real-time interactive multi-sensory empathetic humanoid AI-agent using CNN & LLM
