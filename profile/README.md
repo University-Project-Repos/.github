@@ -14,6 +14,7 @@ data engineering and sciences from the University of Auckland, Uppsala Universit
 - Distributed parallelisation of a malaria endemic stochastic simulation algorithm using Monte Carlo
 - Bayesian probabilistic ML modelling of sport match data for predicting ranking using MS Trueskill
 - Deep reinforcement learning for dynamic job shop scheduling optimisation with Stable Baselines 3
+- UX-driven real-time interactive multi-sensory empathetic humanoid AI-agent using CNN & LLM
 - Interrupt-driven, real-time remote helicopter state, orientation & operation controller using PWM
 - Simulating XYZ TCP/UDP socket communication, LP flow optimization & dynamic RIP networking
 - Monopoly, kalah, embedded interactive memory, AI quarto, RL Snake & Pong, React board, FP soduko, etc games
