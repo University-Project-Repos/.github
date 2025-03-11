@@ -27,6 +27,6 @@ data engineering and sciences from the University of Auckland, Uppsala Universit
 
 For now here are daily generated visualizations of my personal GitHub user* & repository statistics:
 
-[![GitStats Overview](https://raw.githubusercontent.com/R055A/GitStats/actions_branch/generated_images/overview.svg "R055A/GitStats")![GitStats Languages](https://raw.githubusercontent.com/R055A/GitStats/actions_branch/generated_images/languages.svg "R055A/GitStats")](https://github.com/R055A/GitStats)
+[![GitStats Overview](https://raw.githubusercontent.com/University-Project-Repos/GitStats-UniversityProjects/actions_branch/generated_images/overview.svg "R055A/GitStats")![GitStats Languages](https://raw.githubusercontent.com/University-Project-Repos/GitStats-UniversityProjects/actions_branch/generated_images/languages.svg "R055A/GitStats")](https://github.com/R055A/GitStats)
     
 > \* _My '**Avg contributions**' rate applies only to university project repos completed with at least 1 other_
