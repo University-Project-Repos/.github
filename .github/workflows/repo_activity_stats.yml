@@ -1,0 +1,164 @@
+name: Repo Activity Stats
+
+on:
+  schedule:
+    - cron: "00 02 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install requests matplotlib
+
+      - name: Plot API-fetched Stats
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          OWNERS_LIST: ${{ secrets.OWNERS_LIST }}
+          REPOS_LIST: ${{ secrets.REPOS_LIST }}
+        run: |
+          python - <<EOF
+          from json import load, dump
+          from os import getenv, path
+          from http import HTTPStatus
+          from requests import get, post
+          import matplotlib.pyplot as plt
+          import matplotlib.dates as mdates
+          from datetime import datetime, timedelta, UTC
+          
+          GITHUB_API_URL: str = "https://api.github.com"
+          TOKEN: str | None = getenv("ACCESS_TOKEN")
+          OWNERS: list[str] = getenv("OWNERS_LIST", '').split(',')
+          REPOS: list[str] = getenv("REPOS_LIST", '').split(',')
+          HEADERS: dict[str, str] = {"Authorization": f"token {TOKEN}", "Accept": "application/vnd.github.v3+json"}
+          JSON_FILE_NAME: str = "profile/repo_activity_stats.json"
+          PNG_FILE_NAME: str = "profile/repo_activity_stats.png"
+          NUM_DAYS: int = 14
+
+
+          def get_data(url: str) -> dict:
+              response = get(url=url, headers=HEADERS)
+              if response.status_code == HTTPStatus.OK:
+                  return response.json()
+              return {}
+
+
+          total_stats: dict[str, dict[str, int]] = {}
+          if path.exists(JSON_FILE_NAME):
+              with open(JSON_FILE_NAME, "r") as stats_file:
+                  total_stats = load(stats_file)
+          else:
+              total_stats["stars_sum"] = 0
+
+          date_range: list[str] = [
+              date for date in [(datetime.now(UTC) - timedelta(days=i)).strftime("%Y-%m-%d") for i in range(1, NUM_DAYS)] 
+              if date not in total_stats
+          ]
+          for date in date_range:
+              total_stats[date] = {
+                  "views": 0,
+                  "clones": 0,
+                  "stars": 0,
+                  "forks": 0,
+                  "prs": 0,
+                  "issues": 0
+              }
+
+          repos: list[str] = REPOS
+          for page_i in range(1, 11):
+              repos_data: dict = get_data(f"{GITHUB_API_URL}/user/repos?per_page=100&page={page_i}&type=all")
+              if not repos_data:
+                  break
+              repos.extend(
+                  [repo["full_name"] for repo in repos_data if not OWNERS or OWNERS == [''] or repo["full_name"].split('/')[0] in OWNERS]
+                  if repos_data else []
+              )
+          repos = list(set(repo for repo in repos if repo != ''))
+
+          stars_count = 0
+
+          for repo in repos:
+              views_data: dict = get_data(url=f"{GITHUB_API_URL}/repos/{repo}/traffic/views")
+              clones_data: dict = get_data(url=f"{GITHUB_API_URL}/repos/{repo}/traffic/clones")
+              stars_count += get_data(url=f"{GITHUB_API_URL}/repos/{repo}").get("stargazers_count", 0)
+              forks_data: dict = get_data(url=f"{GITHUB_API_URL}/repos/{repo}/forks?per_page=100")
+              prs_data: dict = get_data(url=f"{GITHUB_API_URL}/repos/{repo}/pulls?state=all&per_page=100")
+              issues_data: dict = get_data(url=f"{GITHUB_API_URL}/repos/{repo}/issues?state=all&per_page=100")
+          
+              for date in date_range:
+                  total_stats[date]["views"] += next(
+                      (v['count'] for v in views_data.get('views', []) if v['timestamp'].startswith(date)), 0)
+                  total_stats[date]["clones"] += next(
+                      (c['count'] for c in clones_data.get('clones', []) if c['timestamp'].startswith(date)), 0)
+                  total_stats[date]["forks"] += sum(1 for f in forks_data if f.get('created_at', '').startswith(date))
+                  total_stats[date]["prs"] += sum(1 for pr in prs_data if pr.get('created_at', '').startswith(date))
+                  total_stats[date]["issues"] += sum(1 for issue in issues_data if issue.get('created_at', '').startswith(date))
+
+          if total_stats["stars_sum"] > 0:
+              new_stars: int = (
+                  round(max(stars_count - total_stats["stars_sum"], 0)) / min(round(max(stars_count - total_stats["stars_sum"], 0)), len(date_range)) 
+                  if min(round(max(stars_count - total_stats["stars_sum"], 0)), len(date_range)) > 0 else 0
+              )      
+              for i, date in enumerate(date_range):
+                  if i == min(round(max(stars_count - total_stats["stars_sum"], 0)), len(date_range)):
+                      break
+                  total_stats[date]["stars"] += new_stars
+          total_stats["stars_sum"] = stars_count
+
+          with open(JSON_FILE_NAME, "w") as stats_file:
+              dump(total_stats, stats_file, indent=2)
+
+          dates: list[str] = sorted(list(set(total_stats.keys()) - set(["stars_sum"])), key=lambda x: datetime.strptime(x, "%Y-%m-%d"))
+          date_times: list[datetime] = [datetime.strptime(d, "%Y-%m-%d") for d in dates]
+
+          plt.figure(figsize=(10, 6))
+          plt.plot(date_times, [total_stats[d]["views"] for d in dates], label="Views", color="#1a7f37", linewidth=2)
+          plt.plot(date_times, [total_stats[d]["clones"] for d in dates], label="Clones", color="#54aeff", linewidth=2)
+          plt.plot(date_times, [total_stats[d]["stars"] for d in dates], label="Stars", color="#eac54f", linewidth=2)
+          plt.plot(date_times, [total_stats[d]["forks"] for d in dates], label="Forks", color="#39d353", linewidth=2)
+          plt.plot(date_times, [total_stats[d]["prs"] for d in dates], label="Pull Requests", color="#8250df", linewidth=2)
+          plt.plot(date_times, [total_stats[d]["issues"] for d in dates], label="Issues", color="#cf222e", linewidth=2)
+          
+          plt.xlabel(xlabel="Date", fontsize=10)
+          plt.ylabel(ylabel="Count", fontsize=10)
+          plt.title(label=f"Repository Public Traffic Activity Statistics (From {date_times[0].strftime("%m/%d/%Y")})", fontsize=12, fontweight="bold")
+          plt.xticks(rotation=45, fontsize=8)
+          plt.legend(fontsize=10)
+          plt.gca().xaxis.set_major_locator(mdates.AutoDateLocator())
+          plt.gca().xaxis.set_major_formatter(mdates.DateFormatter("%m/%d/%Y"))
+          plt.grid(True, linestyle="--", linewidth=0.5, alpha=0.7)
+          
+          plt.savefig(PNG_FILE_NAME, bbox_inches="tight")
+          EOF
+
+      - name: Update README
+        run: |
+          IMG="![GitHub Repository Activity Statistics](repo_activity_stats.png)"
+          README="profile/README.md"
+          IMG_START="<!--REPO_ACTIVITY_STATS_START-->"
+          IMG_END="<!--REPO_ACTIVITY_STATS_END-->"
+
+          if grep -q "$IMG_START" "$README" && grep -q "$IMG_END" "$README"; then
+              sed -i "/$IMG_START/,/$IMG_END/c\\$IMG_START\n$IMG\n$IMG_END" "$README"
+          else
+              echo -e "\n$IMG_START\n$IMG\n$IMG_END" >> "$README"
+          fi
+
+      - name: Commit Update
+        run: |
+          git config --global user.name "Adam Ross"
+          git config --global user.email "14985050+R055A@users.noreply.github.com"
+          git add profile/.
+          git commit -m "Update README.md, repo activity stats"
+          git pull
+          git push
+        continue-on-error: true
