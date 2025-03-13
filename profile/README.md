@@ -1,3 +1,5 @@
+[![Git Stats Images](https://github.com/University-Project-Repos/GitStats-UniversityProjects/actions/workflows/auto_update_stat_images.yml/badge.svg)](https://github.com/University-Project-Repos/GitStats-UniversityProjects) [![Repo Activity Stats](https://github.com/University-Project-Repos/.github/actions/workflows/repo_activity_stats.yml/badge.svg)](https://github.com/University-Project-Repos/.github/actions/workflows/repo_activity_stats.yml)
+
 The following are examples of `.git` university projects, most being private. Offering as much as 
 30 ECTS, they cover a diverse range of IT disciplines, many involving extensive collaboration. 
 These include all undergraduate computer science (COSC), software engineering (SENG), embedded and computer systems (ENCE),
