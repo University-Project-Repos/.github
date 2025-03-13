@@ -30,3 +30,7 @@ Regularly generated visualizations of my personal GitHub statistics exclusive to
 [![GitStats Overview](https://raw.githubusercontent.com/University-Project-Repos/GitStats-UniversityProjects/actions_branch/generated_images/overview.svg "R055A/GitStats")![GitStats Languages](https://raw.githubusercontent.com/University-Project-Repos/GitStats-UniversityProjects/actions_branch/generated_images/languages.svg "R055A/GitStats")](https://github.com/R055A/GitStats)
     
 > \* _My '**Avg contributions**' rate applies only to university project repos completed with at least 1 other_
+
+<!--REPO_ACTIVITY_STATS_START-->
+![GitHub Repository Activity Statistics](repo_activity_stats.png)
+<!--REPO_ACTIVITY_STATS_END-->
