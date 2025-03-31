@@ -19,7 +19,7 @@ data engineering and sciences from the University of Auckland, Uppsala Universit
 - UX-driven real-time interactive multi-sensory empathetic humanoid AI-agent using CNN & LLM
 - Interrupt-driven, real-time remote helicopter state, orientation & operation controller using PWM
 - Simulating XYZ TCP/UDP socket communication, LP flow optimization & dynamic RIP networking
-- Monopoly, kalah, embedded interactive memory, AI quarto, RL Snake & Pong, React board, FP soduko, etc games
+- Monopoly, kalah, embedded interactive MP memory, AI quarto, RL Snake & Pong, React board, FP soduko, etc games
 - Parking, rego, supply chain, auction, bar, itinerary route planner, forum, etc. (G)UI apps of varying FW
 - 3D-animated scenery & interactive gameplay with ray tracing, particle system & real-World physics
 - cross-platform application prototype for streamlining offshore-focused maritime mooring planning
