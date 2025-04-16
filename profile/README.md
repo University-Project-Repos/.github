@@ -5,7 +5,7 @@ The following are examples of `.git` university projects, most being private. Of
 These include all undergraduate computer science (COSC), software engineering (SENG), embedded and computer systems (ENCE), relevant engineering (BE) courses,
 and GIS (part of GEOG) credits given at the University of Canterbury or in advanced equivalence from studies 
 abroad, with much more at postgraduate-level in software engineering, computer & other advanced 
-data engineering and sciences from the University of Auckland, Uppsala University and other formal international exchanges:
+data engineering and sciences from home and other formal international exchange universities:
 
 - Distributed real-time system for global semi-autonomous asynchronous robotic depot storage
 - Wide-area wireless embedded networking system for low-power autonomous wildlife surveillance
