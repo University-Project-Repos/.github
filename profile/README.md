@@ -6,7 +6,7 @@ These include all undergraduate computer science (COSC), software engineering (S
 embedded and computer systems (ENCE), relevant engineering (BE),and GIS (part of GEOG) credits 
 given at my home university or in advanced equivalence from exchange studies abroad, 
 with much more at postgraduate-level in software engineering, embedded systems, 
-& computer & other advanced data engineering and sciences.
+& computer & other advanced data engineering & sciences.
 
 - Distributed real-time system for global semi-autonomous asynchronous robotic depot storage
 - Wide-area wireless embedded networking system for low-power autonomous wildlife surveillance
@@ -34,7 +34,7 @@ Regularly generated visualizations of my personal GitHub statistics exclusive to
     
 >  _My **Avg contributions** applies to uni projects only in `.git` collaborative context, excluding open-source, lead, work etc_
 
-🤓 Fun fact: I initially deployed the visualisations these succeed 1 month before the then unknown project including CI/CD automating GitHub statistic visualisations (though not using GitHub workflows) for the 1st instance of an advanced Data Engineering II course. Unfortunately, following multiple hands-on teaching by example, someone else pushed the API-fetching task before me and any remote deadline, regardless of thorough planning and all project management documentation. Not the 1st instance of finding a project I have deployed to GitHub as a course assessment the following period, and not the 1st time I have experienced difficulties as a result. Thus, most `.git` repositories are private.
+🤓 Fun fact: I initially deployed the visualisations these succeed 1 month before a then unknown project including CI/CD automating GitHub statistic visualisations (though not using GitHub workflows) for the 1st instance of an advanced Data Engineering II course. Unfortunately, following multiple hands-on private teaching by example, someone else pushed the API-fetching task before me and any remote deadline, regardless of thorough planning and all project management documentation. Not the 1st instance of finding a project I have deployed to GitHub as a course assessment the following period, & not the 1st time I have found myself experiencing difficulties. Thus, & for countless reasons more, most `.git` repositories are private.
 
 <!--REPO_ACTIVITY_STATS_START-->
 ![GitHub Repository Activity Statistics](repo_activity_stats.png)
