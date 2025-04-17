@@ -3,7 +3,7 @@
 The following are examples of completed `.git` university projects, many involving extensive collaboration. 
 Offering as much as 15 ECTS (0.25 EFTS), they cover a diverse range of IT disciplines. 
 These include all undergraduate computer science (COSC), software engineering (SENG), 
-embedded and computer systems (ENCE), relevant engineering (BE),and GIS (part of GEOG) credits 
+embedded and computer systems (ENCE), relevant engineering (BE), & GIS (part of GEOG) credits 
 given at my home university or in advanced equivalence from exchange studies abroad, 
 with much more at postgraduate-level in software engineering, embedded systems, 
 & computer & other advanced data engineering & sciences.
@@ -34,7 +34,7 @@ Regularly generated visualizations of my personal GitHub statistics exclusive to
     
 >  _My **Avg contributions** applies to uni projects only in `.git` collaborative context, excluding open-source, lead, work etc_
 
-🤓 Fun fact: I initially deployed the visualisations these succeed 1 month before a then unknown project including CI/CD automating GitHub statistic visualisations (though not using GitHub workflows) for the 1st instance of an advanced data engineering course. Unfortunately, following hands-on teaching by example, someone else pushed the API-fetching task before me and any remote deadline, regardless of all planning, project management documentation & my unrelenting schedule, ironically exacerbated with a sisyphean struggle against such protracted matters already for 4 years. Not the 1st instance of finding a project deployed to GitHub as an assessment the following (or later the same) period, & not the 1st time I have found myself experiencing difficulties in, or - another fun fact - working on the course after. Thus, & for countless untenable reasons more, most `.git` repositories are private (or should be).
+🤓 Fun fact: I initially deployed the visualisations these succeed 1 month before a then unknown project including CI/CD automating GitHub statistic visualisations (though not using GitHub workflows) for the 1st instance of an advanced data engineering course. Unfortunately, following hands-on teaching by example, someone else pushed the API-fetching task before me and any remote deadline, regardless of all planning, project management documentation & my unrelenting schedule, ironically exacerbated with an ineffable sisyphean struggle against such protracted matters already for 4 years. Not the 1st instance of finding a project deployed to GitHub as an assessment the following (or later the same) period, & not the 1st time I have found myself experiencing difficulties in, or - another fun fact - working on the course after. Thus, & for countless untenable reasons more, most `.git` repositories are private (or should be).
 
 <!--REPO_ACTIVITY_STATS_START-->
 ![GitHub Repository Activity Statistics](repo_activity_stats.png)
