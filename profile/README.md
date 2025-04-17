@@ -1,11 +1,12 @@
 [![Git Stats Images](https://github.com/University-Project-Repos/GitStats-UniversityProjects/actions/workflows/auto_update_stat_images.yml/badge.svg)](https://github.com/University-Project-Repos/GitStats-UniversityProjects) [![Repo Activity Stats](https://github.com/University-Project-Repos/.github/actions/workflows/repo_activity_stats.yml/badge.svg)](https://github.com/University-Project-Repos/.github)
 
-The following are examples of `.git` university projects, most being private. Offering as much as 
-30 ECTS, they cover a diverse range of IT disciplines, many involving extensive collaboration. 
-These include all undergraduate computer science (COSC), software engineering (SENG), embedded and computer systems (ENCE), relevant engineering (BE) courses,
-and GIS (part of GEOG) credits given at the University of Canterbury or in advanced equivalence from studies 
-abroad, with much more at postgraduate-level in software engineering, computer & other advanced 
-data engineering and sciences from home and other formal international exchange universities:
+The following are examples of completed `.git` university projects, many involving extensive collaboration. 
+Offering as much as 15 ECTS (0.25 EFTS), they cover a diverse range of IT disciplines. 
+These include all undergraduate computer science (COSC), software engineering (SENG), 
+embedded and computer systems (ENCE), relevant engineering (BE),and GIS (part of GEOG) credits 
+given at my home university or in advanced equivalence from exchange studies abroad, 
+with much more at postgraduate-level in software engineering, embedded systems, 
+& computer & other advanced data engineering and sciences.
 
 - Distributed real-time system for global semi-autonomous asynchronous robotic depot storage
 - Wide-area wireless embedded networking system for low-power autonomous wildlife surveillance
@@ -22,7 +23,7 @@ data engineering and sciences from home and other formal international exchange 
 - Monopoly, kalah, embedded interactive MP memory, AI quarto, RL Snake & Pong, React board, FP soduko, etc games
 - Parking, rego, supply chain, auction, bar, itinerary route planner, forum, etc. (G)UI apps of varying FW
 - 3D-animated scenery & interactive gameplay with ray tracing, particle system & real-World physics
-- cross-platform application prototype for streamlining offshore-focused maritime mooring planning
+- Cross-platform application prototype for streamlining offshore-focused maritime mooring planning
 - and much more, to be listed soon, not to mention other projects completed without using `.git`
 
 ### 📈 Repository and User Contribution Statistics
@@ -32,6 +33,8 @@ Regularly generated visualizations of my personal GitHub statistics exclusive to
 [![GitStats Overview](https://raw.githubusercontent.com/University-Project-Repos/GitStats-UniversityProjects/actions_branch/generated_images/overview.svg "R055A/GitStats")![GitStats Languages](https://raw.githubusercontent.com/University-Project-Repos/GitStats-UniversityProjects/actions_branch/generated_images/languages.svg "R055A/GitStats")](https://github.com/R055A/GitStats)
     
 >  _My **Avg contributions** applies to uni projects only in `.git` collaborative context, excluding open-source, lead, work etc_
+
+🤓 Fun fact: I initially deployed the visualisations these succeed 1 month before the then unknown project including CI/CD automating GitHub statistic visualisations (though not using GitHub workflows) for the 1st instance of an advanced Data Engineering II course. Unfortunately, following multiple hands-on teaching by example, someone else pushed the API-fetching task before me and any remote deadline, regardless of thorough planning and all project management documentation. Not the 1st instance of finding a project I have deployed to GitHub as a course assessment the following period, and not the 1st time I have experienced difficulties as a result. Thus, most `.git` repositories are private.
 
 <!--REPO_ACTIVITY_STATS_START-->
 ![GitHub Repository Activity Statistics](repo_activity_stats.png)
