@@ -39,3 +39,5 @@ Regularly generated visualizations of my personal GitHub statistics exclusive to
 <!--REPO_ACTIVITY_STATS_START-->
 ![GitHub Repository Activity Statistics](repo_activity_stats.png)
 <!--REPO_ACTIVITY_STATS_END-->
+
+Fashionably late
