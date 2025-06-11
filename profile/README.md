@@ -24,7 +24,7 @@ with much more at postgraduate-level in software engineering, embedded systems,
 - Parking, rego, supply chain, auction, bar, itinerary route planner, forum, etc. (G)UI apps of varying FW
 - 3D-animated scenery & interactive gameplay with ray tracing, particle system & real-World physics
 - Cross-platform application prototype for streamlining offshore-focused maritime mooring planning
-- Maintainable Zephyr-based distributed configurable multi-sensor IMU API with IRQ-based UART interface to AHRS
+- Maintainable distributed multi-sensor IMU API with IRQ-driven interface to AHRS & config support
 - and much more, to be listed soon, not to mention other projects completed without using `.git`
 
 ### 📈 Repository and User Contribution Statistics
