@@ -1,12 +1,6 @@
 [![Git Stats Images](https://github.com/University-Project-Repos/GitStats-UniversityProjects/actions/workflows/auto_update_stat_images.yml/badge.svg)](https://github.com/University-Project-Repos/GitStats-UniversityProjects) [![Repo Activity Stats](https://github.com/University-Project-Repos/.github/actions/workflows/repo_activity_stats.yml/badge.svg)](https://github.com/University-Project-Repos/.github)
 
-The following are examples of completed `.git` university projects, many involving extensive collaboration. 
-Offering as much as 15 ECTS (0.25 EFTS), they cover a diverse range of IT disciplines. 
-These include all undergraduate computer science (COSC), software engineering (SENG), 
-embedded and computer systems (ENCE), relevant engineering (BE), & GIS (part of GEOG) credits 
-given at my home university or in advanced equivalence from exchange studies abroad, 
-with much more at postgraduate-level in software engineering, embedded systems, 
-& computer & other advanced data engineering & sciences.
+The following are examples of completed `.git` university projects, many involving extensive collaboration.
 
 - Distributed real-time system for global semi-autonomous asynchronous robotic depot storage
 - Wide-area wireless embedded networking system for low-power autonomous wildlife surveillance
@@ -26,6 +20,8 @@ with much more at postgraduate-level in software engineering, embedded systems,
 - Cross-platform application prototype for streamlining offshore-focused maritime mooring planning
 - Maintainable distributed multi-sensor IMU API with IRQ-driven interface to AHRS & config support
 - and much more, to be listed soon, not to mention other projects completed without using `.git`
+
+More information can be found on my LinkedIn profile.
 
 ### 📈 Repository and User Contribution Statistics
 
