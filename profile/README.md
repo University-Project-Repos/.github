@@ -14,7 +14,7 @@ The following are examples of completed `.git` university projects, many involvi
 - UX-driven real-time interactive multi-sensory empathetic humanoid (portraitist) AI-agent using LLM & CNN
 - Interrupt-driven, real-time remote helicopter state, orientation & operation controller using PWM
 - Simulating XYZ TCP/UDP socket communication, LP flow optimization & dynamic RIP networking
-- Monopoly, kalah, embedded interactive MP memory, AI quarto, RL Snake & Pong, React board, FP soduko, etc games
+- Monopoly, kalah, inter-MCU, AI quarto, RL Snake & Pong, React board, FP sudoku & ultimate TTT, etc games
 - Parking, rego, supply chain, auction, bar, itinerary route planner, forum, etc. (G)UI apps of varying FW
 - 3D-animated scenery & interactive gameplay with ray tracing, particle system & real-World physics
 - Cross-platform application prototype for streamlining offshore-focused maritime mooring planning
