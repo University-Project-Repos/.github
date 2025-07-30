@@ -19,7 +19,7 @@ The following are examples of completed `.git` university projects, many involvi
 - 3D-animated scenery & interactive gameplay with ray tracing, particle system & real-World physics
 - Cross-platform application prototype for streamlining offshore-focused maritime mooring planning
 - Maintainable distributed multi-sensor MCU-IMU API with IRQ-driven interface to AHRS & config support
-- and much more, to be listed soon, not to mention other projects completed without using `.git`
+- and much more, over 100 to be listed soon, not to mention other projects completed without using `.git`
 
 More information can be found on my LinkedIn profile.
 
