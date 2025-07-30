@@ -1,6 +1,6 @@
 [![Git Stats Images](https://github.com/University-Project-Repos/GitStats-UniversityProjects/actions/workflows/auto_update_stat_images.yml/badge.svg)](https://github.com/University-Project-Repos/GitStats-UniversityProjects) [![Repo Activity Stats](https://github.com/University-Project-Repos/.github/actions/workflows/repo_activity_stats.yml/badge.svg)](https://github.com/University-Project-Repos/.github)
 
-The following are examples of completed `.git` university projects, many involving extensive collaboration.
+The following are examples from over 100 `.git` projects, most completed pre-Gen-AI, much involving extensive collaboration
 
 - Distributed real-time system for global semi-autonomous asynchronous robotic depot storage
 - Wide-area wireless embedded networking system for low-power autonomous wildlife surveillance
