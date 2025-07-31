@@ -35,6 +35,8 @@ Regularly generated visualizations of my personal GitHub statistics exclusive to
 
 <!-- 🤓 Fun fact: I initially deployed the visualisations these succeed 1 month before a then unknown project including CI/CD automating GitHub statistic visualisations (though not using GitHub workflows) for the 1st instance of an advanced data engineering course. Unfortunately, following hands-on teaching by example, someone else pushed the API-fetching task before me and any remote deadline, regardless of all planning, project management documentation & my unrelenting schedule, ironically 24/7 exacerbated with an ineffable sisyphean struggle against such cyclically projected inverted matters already for 4 climactic Kafkaesque Orwelian years. Not the 1st instance of finding a project deployed to GitHub as an assessment the following (or later the same) period, & not the 1st time I have found myself experiencing ironic difficulties in, or - another fun fact - working on the course after. Regardless of all adversity overcome to complete compromised projects & related courses with distinction, I choose not to list these. Thus, & for countless untenable reasons more - as trends continue to surge in the advent of post-pandemic AI transformation - most `.git` repos are private (or should be). -->
 
+#
+
 <!--REPO_ACTIVITY_STATS_START-->
 ![GitHub Repository Activity Statistics](repo_activity_stats.png)
 <!--REPO_ACTIVITY_STATS_END-->
