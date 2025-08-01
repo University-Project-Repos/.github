@@ -27,7 +27,7 @@ The following are examples from over __100__ completed `.git` projects, most pre
 
 More information can be found on my LinkedIn profile.
 
-### 📈 Repository and User Contribution Statistics
+## 📈 Repository and User Contribution Statistics
 
 Regularly generated visualizations of my personal GitHub statistics exclusive to university projects:
 
