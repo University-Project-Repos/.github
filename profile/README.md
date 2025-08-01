@@ -2,6 +2,8 @@
 
 Multiple completed university projects in software engineering, data science, embedded systems, & other advanced computer science.
 
+#
+
 The following are examples from over __100__ completed `.git` projects, most pre-Gen-AI, many involving extensive collaboration:
 
 - Distributed real-time system for global semi-autonomous asynchronous robotic depot storage
@@ -21,7 +23,7 @@ The following are examples from over __100__ completed `.git` projects, most pre
 - 3D-animated scenery & interactive gameplay with ray tracing, particle system & real-World physics
 - Cross-platform application prototype for streamlining offshore-focused maritime mooring planning
 - Maintainable distributed multi-sensor MCU-IMU API with IRQ-driven interface to AHRS & config support
-- and much more to be listed soon, including GIS, not to mention other projects completed without using `.git`
+- and much more to be listed soon, including multiple in GIS, not to mention other projects completed without using `.git`
 
 More information can be found on my LinkedIn profile.
 
