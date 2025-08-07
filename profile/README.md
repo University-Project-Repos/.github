@@ -4,7 +4,7 @@ Multiple completed university projects in software engineering, data science, em
 
 #
 
-The following are examples from over __100__ completed `.git` projects, most pre-Gen-AI, many involving extensive collaboration:
+The following are examples from over __100__ `.git` projects, most pre-Gen-AI (& rather completed under the most least of ideal circumstances), many involving extensive collaboration:
 
 - Distributed real-time system for global semi-autonomous asynchronous robotic depot storage
 - Wide-area wireless embedded networking system for low-power autonomous wildlife surveillance
