@@ -25,7 +25,7 @@ Multiple completed university projects in software engineering, data science, em
 - Maintainable distributed multi-sensor MCU-IMU API with IRQ-driven interface to AHRS & config support
 - and much more to be listed soon, including multiple in GIS, not to mention other projects completed without using `.git`
 
-More information can be found on my LinkedIn profile.
+> More information can be found on my LinkedIn profile.
 
 ## 📈 Repository and User Contribution Statistics
 
