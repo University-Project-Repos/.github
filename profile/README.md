@@ -4,7 +4,7 @@ Multiple completed university projects in software engineering, data science, em
 
 #
 
-> The following are examples from over __100__ `.git` projects, most completed pre-GenAI (& rather all under the most perfectly least of ideal circumstances), some since integrating LLM, many involving extensive collaboration, all averaging with distinction:
+> The following are examples from over __100__ `.git` projects, most completed pre-GenAI (& rather all perfectly under the most least of ideal circumstances), some since integrating LLM, many involving extensive collaboration, all averaging with distinction:
 
 - Distributed real-time system for global semi-autonomous asynchronous robotic depot storage
 - Wide-area wireless embedded networking system for low-power autonomous wildlife surveillance
