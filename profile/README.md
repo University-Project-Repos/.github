@@ -14,7 +14,7 @@ Multiple completed university projects in software engineering, data science, em
 - Low-level parallelisation of graphically heat-mapped, collision-free pedestrian crowd simulation
 - Distributed parallelisation of a malaria endemic stochastic simulation algorithm using Monte Carlo
 - Bayesian probabilistic ML modelling of sport match data for predicting ranking using MS Trueskill
-- Deep RL for industrial job-shop scheduling (dynamic optimisation, with Stable Baselines 3) - _not to be mistaken with the unsourced thesis_.
+- Deep RL for industrial job-shop scheduling (optimisation, with Stable Baselines 3) - _before [the thesis](https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1899979&dswid=-1443)_.
 - UX-driven real-time interactive multi-sensory empathetic humanoid (portraitist) AI-agent using LLM & CNN
 - Interrupt-driven, real-time remote helicopter state, orientation & operation controller using PWM
 - Simulating XYZ TCP/UDP socket communication, LP flow optimization & dynamic RIP networking
