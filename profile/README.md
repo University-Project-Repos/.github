@@ -46,7 +46,7 @@ Regularly generated visualizations of my personal GitHub statistics exclusive to
 <!--REPO_ACTIVITY_STATS_START-->
 ![GitHub Repository Activity Statistics](repo_activity_stats.png)
 
-Fashionably late. Follows most project completion.
+Fashionably late. Follows most project completion, most being private.
 <!--REPO_ACTIVITY_STATS_END-->
 
 <!-- Fashionably late -->
