@@ -37,7 +37,7 @@ Regularly generated visualizations of my personal GitHub statistics exclusive to
 
 🤓 Fun facts: 
 - [GitStats](https://github.com/R055A/GitStats) was initially deployed before a uni project including CI/CD visualising GitHub API-fetched stats for the first instance of an advanced data engineering course. Not the first case of unwittingly preempting assessments ahead of courses, nor the last of irony.
-- I completed more than enough credits with distinction at advanced/masters level for one if not two degrees before I could possibly officially complete a basic/bachelors degree, regardless of at least enough credits for two more degrees, including formal exchanges. This is given the most adverse of cirumstances, which although independently 'overcome', involves multiple consecutive severe & other significantly inhibiting injuries, including paralyses, total amnesia, motor-skill loss, sight & hand-eye coordination loss, extremely harmful and damaging - in all aspects - 24/7 wrongdoing plagues, and a lifetime of induced sleep deprivation. To recite this is a study in itself.
+- I completed more than enough credits with distinction at advanced/masters level for one if not two degrees before I could possibly officially complete a basic/bachelors degree, regardless of at least enough credits for two more degrees, including formal exchanges. This is given the most adverse of cirumstances, which although independently 'overcome', involves multiple consecutive severe & other significantly inhibiting injuries, including paralyses, total amnesia, motor-skill loss, sight & hand-eye coordination loss, extremely harmful & damaging - in all aspects - 24/7 wrongdoing plagues, & a lifetime of induced sleep deprivation. A study in itself.
 
 #
 
