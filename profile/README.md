@@ -45,4 +45,4 @@ Regularly generated visualizations of my personal GitHub statistics exclusive to
 ![GitHub Repository Activity Statistics](repo_activity_stats.png)
 <!--REPO_ACTIVITY_STATS_END-->
 
-Fashionably late. Most projects are complete, not to mention private.
+Fashionably late. Most projects are complete long before now (& Gen-AI), not to mention private.
