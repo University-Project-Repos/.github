@@ -1,8 +1,6 @@
 Multiple completed university projects in software engineering, data science, embedded systems, & other advanced computer science.
 
-#
-
-> The following are examples from over __100__ `.git` projects, most completed well pre-GenAI (& rather all perfectly under the most least of ideal circumstances), some since integrating LLM, many involving extensive collaboration, all averaging with distinction:
+> The following are examples from over __100__ `.git` projects, most completed well pre-GenAI (& rather all perfectly under the most least of ideal circumstances), some since integrating LLM, many involving extensive collaboration, & all averaging with distinction:
 
 - Distributed real-time system for global semi-autonomous asynchronous robotic depot storage
 - Wide-area wireless embedded networking system for low-power autonomous wildlife surveillance
@@ -12,7 +10,7 @@ Multiple completed university projects in software engineering, data science, em
 - Low-level parallelisation of graphically heat-mapped, collision-free pedestrian crowd simulation
 - Distributed parallelisation of a malaria endemic stochastic simulation algorithm using Monte Carlo
 - Bayesian probabilistic ML modelling of sport match data for predicting ranking using MS Trueskill
-- Deep reinforcement learning for industrial job-shop scheduling - _antecedes & constitutes "original" namesake thesis_ 🤷
+- Deep reinforcement learning for industrial job-shop scheduling - _antecedes & constitutes "original" namesake thesis_
 - UX-driven real-time interactive multi-sensory empathetic humanoid (portraitist) AI-agent using LLM & CNN
 - Interrupt-driven, real-time remote helicopter state, orientation & operation controller using PWM
 - Simulating XYZ TCP/UDP socket communication, LP flow optimization & dynamic RIP networking
@@ -33,7 +31,7 @@ Regularly generated visualizations of my personal GitHub statistics exclusive to
 
 >  _My **Avg contributions** applies to uni projects only in `.git` collaborative context, excluding open-source, lead, work etc_ -->
 
-🤓 Fun facts: 
+<!-- 🤓 Fun facts: 
 - I completed more than enough credits with distinction at advanced/masters level for one if not two degrees before I could possibly officially complete a basic/bachelors degree, regardless of at least enough credits for two more degrees, including formal exchanges.
   <!-- This is given the most adverse of cirumstances, which although independently 'overcome', involves multiple consecutive severe & other significantly inhibiting injuries, including paralyses, amnesia, motor-skill loss, sight & hand-eye coordination loss, extremely harmful & damaging - in all aspects - 24/7 wrongdoing plagues, & a lifetime of induced sleep deprivation. A study in itself. -->
 <!-- - [GitStats](https://github.com/R055A/GitStats) was initially deployed before a uni project including CI/CD visualising GitHub API-fetched stats for the first instance of an advanced data engineering course. Not the first case of unwittingly preempting assessments ahead of courses, nor the last of irony. -->
