@@ -17,6 +17,7 @@ jobs:
           theme: ${{ secrets.THEME }}  # optional
           background_image: ${{ secrets.BG_IMG }}  # optional
           num_repo_pins: ${{ secrets.NUM_REPO_PINS }}  # optional
+          repo_pin_order: ${{ secrets.REPO_PIN_ORDER }}  # optional
           repo_names_exclusive: ${{ secrets.REPO_NAMES_EXCLUSIVE }}  # optional
           is_exclude_repos_owned: ${{ secrets.IS_EXCLUDE_REPOS_OWNED }}  # optional
           is_exclude_repos_contributed: ${{ secrets.IS_EXCLUDE_REPOS_CONTRIBUTED }}  # optional
