@@ -1,6 +1,8 @@
 name: generate-profile-repo-pins
 
 on:
+  schedule:
+    - cron: "0 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -10,10 +12,10 @@ jobs:
   update-pins:
     runs-on: ubuntu-latest
     steps:
-      - uses: profile-icons/readme-repo-pins-action@v1.1.1
+      - uses: profile-icons/readme-repo-pins-src@v1
         with:
-          gh_api_token: ${{ secrets.GH_API_TOKEN || secrets.GITHUB_TOKEN }}  # optional
-          gh_username: ${{ secrets.GH_USERNAME || github.repository_owner }}  # optional
+          gh_api_token: ${{ secrets.GH_API_TOKEN || secrets.GITHUB_TOKEN }}  # required, uses default fallback
+          gh_username: ${{ secrets.GH_USERNAME || github.repository_owner }}  # required, uses default fallback
           theme: ${{ secrets.THEME }}  # optional
           background_image: ${{ secrets.BG_IMG }}  # optional
           num_repo_pins: ${{ secrets.NUM_REPO_PINS }}  # optional
