@@ -30,6 +30,15 @@ Multiple completed university projects in software engineering, data science, em
 <object type="image/svg+xml" data="imgs/44.svg"></object> <object type="image/svg+xml" data="imgs/45.svg"></object> 
 <object type="image/svg+xml" data="imgs/46.svg"></object> <object type="image/svg+xml" data="imgs/47.svg"></object> 
 <object type="image/svg+xml" data="imgs/48.svg"></object> <object type="image/svg+xml" data="imgs/49.svg"></object> 
+<object type="image/svg+xml" data="imgs/50.svg"></object> <object type="image/svg+xml" data="imgs/51.svg"></object> 
+<object type="image/svg+xml" data="imgs/52.svg"></object> <object type="image/svg+xml" data="imgs/53.svg"></object> 
+<object type="image/svg+xml" data="imgs/54.svg"></object> <object type="image/svg+xml" data="imgs/55.svg"></object> 
+<object type="image/svg+xml" data="imgs/56.svg"></object> <object type="image/svg+xml" data="imgs/57.svg"></object> 
+<object type="image/svg+xml" data="imgs/58.svg"></object> <object type="image/svg+xml" data="imgs/59.svg"></object> 
+<object type="image/svg+xml" data="imgs/60.svg"></object> <object type="image/svg+xml" data="imgs/61.svg"></object> 
+<object type="image/svg+xml" data="imgs/62.svg"></object> <object type="image/svg+xml" data="imgs/63.svg"></object> 
+<object type="image/svg+xml" data="imgs/64.svg"></object> <object type="image/svg+xml" data="imgs/65.svg"></object> 
+<object type="image/svg+xml" data="imgs/66.svg"></object> <object type="image/svg+xml" data="imgs/67.svg"></object> 
 <!-- END: REPO-PINS -->
 
 & more pins on the way...
