@@ -39,6 +39,8 @@ Multiple completed university projects in software engineering, data science, em
 [![SoftwareEngineeringProjectUU/PlanMoor pin img](../imgs/66.svg)](https://softwareengineeringprojectuu.github.io/PlanMoor) [![security-and-privacy pin img](../imgs/67.svg)](https://university-project-repos.github.io/security-and-privacy) 
 <!-- END: REPO-PINS -->
 
-& more pins on the way...
+& more pins on the way... 
+
+Believe it or not, but I barely code. Most descriptions written in retrospect on a spur. Will update soon with public Pages links!
 
 > More information can be found on my LinkedIn profile.
