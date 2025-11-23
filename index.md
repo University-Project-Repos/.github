@@ -43,4 +43,6 @@ Multiple completed university projects in software engineering, data science, em
 
 & more pins on the way...
 
+Believe it or not, but I barely code. Most descriptions written in retrospect on a spur. Will update soon with public Pages links!
+
 > More information can be found on my LinkedIn profile.
