@@ -2,6 +2,7 @@ theme: jekyll-theme-primer
 title: University Projects
 description: Completed uni .git projects
 url: "https://university-project-repos.github.io/.github/"
+org_url: "https://github.com/University-Project-Repos"
 author:
     name: Adam Ross
     url: https://r055a.github.io/R055A/
