@@ -70,8 +70,7 @@ Foundations of Data Science - 1MS048
 Advanced Functional Programming - 1DL450
 Advanced Probabilistic Machine Learning - 1RT003
 Large Language Models and Societal Consequences of Artificial Intelligence - 1RT730
-Security and Privacy - 1DT098
-Information Technology and Energy Storage - 1DT107
+Security and Privacy - 1DT098 (now Data Security and Privacy - 1DT114)
 Software Engineering Project - 1DL650
 IT Systems and Human Factors - 1MD017
 IT, Sustainability and Social Responsibility - 1DL008
@@ -82,19 +81,19 @@ Algorithms and Data Structures III - 1DL481
 Programming Embedded Systems - 1DT106
 Intelligent Interactive Systems - 1MD039
 Reinforcement Learning - 1RT747
-Applied Linear Algebra for Data Science - 1TD060
+Applied Linear Algebra for Data Science - 1TD060 (now Scientific Computing for Data Analysis - 1TD352)
 Data Mining II - 1DL460
-Deep Learning for Image Analysis - 1MD120
-Data Engineering II - 1TD075
+Deep Learning for Image Analysis - 1MD120 (now Advanced Deep Learning for Image Processing - 1MD042)
+Data Engineering II - 1TD075 (now Data Engineering II - 1TD076)
 Data, Ethics and Law - 1DL002
 Computer-Assisted Image Analysis II - 1TD398
-Wireless Communication and Networked Embedded Systems - 1DT103
-User Interface Programming II - 1MD003
+Wireless Communication and Networked Embedded Systems - 1DT103 (now Wireless Communication and Networked Embedded Systems - 1DT194 and Wireless Communication and Networked Embedded Systems, Project - 1DT195)
+User Interface Programming II - 1MD003 (now User Interfaces: Programming and Evaluation - 1MD046)
 Statistical Machine Learning - 1RT700
 Natural Computation Methods for Machine Learning - 1DL073
 Advanced Computer Architecture - 1DT024
 Data Engineering I - 1TD169
-User Interface Programming I - 1MD002
+User Interface Programming I - 1MD002 (now User Interfaces: Programming and Evaluation - 1MD046)
 Secure Computer Systems I - 1DT072
 Computer-Assisted Image Analysis I - 1TD396
 Data Mining I - 1DL360
@@ -133,6 +132,13 @@ GEOG205 Introduction to Geographic Information Systems
 GEOG313 Remote Sensing Data for Geographic Analysis (now GEOG208 Remote sensing for geospatial analysis - can someone please capitalise this for consistency sakes)
 GEOG323 Geospatial Analysis in the Social and Environmental Sciences
 GEOG324 Advanced GIS
+EMTH118 Engineering Mathematics 1A
+EMTH119 Engineering Mathematics 1B
+EMTH211 Engineering Linear Algebra and Statistics
+MATH120 Discrete Mathematics
+MATH220 Discrete Mathematics and Cryptography
+STAT101 Statistics 1
+161250 Data Analysis
 Machine learning for statistical NLP: advanced - LT2926
 Explainable AI - DT8060
 Geospatial Analysis with Cloud Computing in Environmental Monitoring - GMA6H1
