@@ -1,5 +1,6 @@
 ---
 layout: default
+image: "https://avatars.githubusercontent.com/u/174600572"
 ---
 
 Multiple completed university projects in software engineering, data science, embedded systems, & other advanced computer science.
