@@ -48,7 +48,7 @@ Believe it or not, but I barely code. Most descriptions written in retrospect on
 
 > More information can be found on my LinkedIn profile.
 
-<!--
+<!-- 
 Mining of Social Data - 1DL465
 Concurrent Algorithms and Data Structures - 1DL590
 Accelerating Systems with Programmable Logic Components - 1DT109
@@ -115,6 +115,8 @@ MATH120 Discrete Mathematics
 COSC261 Formal Languages and Compilers
 COSC262 Algorithms
 COSC264 Introduction to Computer Networks and the Internet
+ENCE260 Computer Systems
+ENCE361 Embedded Systems 1
 COSC363 Computer Graphics (best course from recollection, likely because first more focused on practical, interactive projects)
 COSC362 Introduction to Cybersecurity
 COSC366 Research Project (UE drone simulation)
@@ -132,6 +134,10 @@ GEOG205 Introduction to Geographic Information Systems
 GEOG313 Remote Sensing Data for Geographic Analysis (now GEOG208 Remote sensing for geospatial analysis - can someone please capitalise this for consistency sakes)
 GEOG323 Geospatial Analysis in the Social and Environmental Sciences
 GEOG324 Advanced GIS
+ENGR100 Engineering Academic Skills
+ENGR101 Foundations of Engineering
+ENEL301 Fundamentals of Engineering Economics and Management
+PHYS101 Engineering Physics A: Mechanics, Waves, Electromagnetism and Thermal Physics
 EMTH118 Engineering Mathematics 1A
 EMTH119 Engineering Mathematics 1B
 EMTH211 Engineering Linear Algebra and Statistics
@@ -148,4 +154,3 @@ SOFTENG 754 Advanced Software Requirements Engineering
 SOFTENG 750 Software Development Methodologies
 COMPSYS 726 Robotics and Intelligent Systems
 -->
-
